@@ -49,7 +49,6 @@
 @media (max-width: 1250px) {
     .about__content {
         flex-direction: column;
-        align-items: center;
         justify-content: start;
         gap: 20px;
     }
