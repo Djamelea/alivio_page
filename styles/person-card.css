@@ -1,0 +1,58 @@
+.person-card {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: var(--co-white);
+    border-radius: 8px;
+    color: var(--co-black);
+    box-shadow: 2px 2px 5px 0 rgba(0,0,0,.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.person-card__title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.person-card__preview {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.person-card__preview-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: -30px -16px;
+}
+
+.product-card__info {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.person-card__subtitle {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.person-card__list {
+    list-style: disc;
+    margin: 15px;
+}
+
+.person-card__list-item {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+}

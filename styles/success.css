@@ -26,7 +26,7 @@
     font-weight: 700;
 }
 
-.success_desc {
+.success__desc {
     color: var(--co-white);
     font-size: 20px;
     font-weight: 500;
@@ -97,7 +97,7 @@
     .success__title {
         font-size: 35px;
     }
-    .success_desc {
+    .success__desc {
         font-size: 16px;
     }
 }
